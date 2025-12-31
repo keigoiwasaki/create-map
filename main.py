@@ -61,6 +61,7 @@ concat_drive_gdf = merge_and_remove_duplicates(drive_compute_shortes_df, drive_g
 concat_all_gdf = merge_and_remove_duplicates(all_compute_shortes_df, all_gdf)
 
 gdf = pd.concat([concat_drive_gdf,concat_all_gdf])
+
 # mapを作成
 bus_map = generate_map(concat_drive_gdf, concat_all_gdf)
 

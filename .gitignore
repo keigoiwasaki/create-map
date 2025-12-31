@@ -1,4 +1,8 @@
-/data/
+# data配下のファイルを除外（フォルダは除外しない）
+data/**/*
+!data/**/
+!data/**/.gitkeep
+
 /project/
 /cache/
 /workspace/
