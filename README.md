@@ -1,4 +1,4 @@
-# 経路生成システム (Route Generation System)
+# OD間における経路生成・補正アルゴリズム (Route Generation)
 
 ## 概要
 
